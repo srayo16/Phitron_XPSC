@@ -1,13 +1,3 @@
-  // int i = 1;
-    // int ans;
-    // while (true)
+(int i = 0; i < s.size(); i++)
     // {
-    //     ans = (a * i);
-    //     if (ans > float(t) +0.5)
-    //     {
-    //         break;
-    //     }
-    //     i++;
     // }
-
-    // cout << ans << endl;
