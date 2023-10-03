@@ -6,18 +6,21 @@ int main()
     int a, b, c;
     cin >> a >> b >> c;
 
-    if (c % a == 0)
-    {
-        cout << "YES" << endl;
-    }
-    else if (c % b == 0)
-    {
-        cout << "YES" << endl;
-    }
-    else
-    {
-        cout << "NO" << endl;
-    }
+    int n = 0;
+    bool flag = false;
 
+    for (int i = 0; i <= c; i++)
+    {
+        for (int j = 0; j <= c; j++)
+        {
+            n = (a * i) + (b * j);
+            if (n == c)
+            {
+                cout << "YES" << endl;
+                return 0;
+            }
+        }
+    }
+    cout << "NO" << endl;
     return 0;
 }
