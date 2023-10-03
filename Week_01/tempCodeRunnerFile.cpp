@@ -1,3 +1,2 @@
-(int i = 0; i < s.size(); i++)
-    // {
-    // }
+ tmp++;
+                continue;
