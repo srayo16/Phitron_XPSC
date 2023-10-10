@@ -1,7 +1,1 @@
-n > 0)
-    // {
-    //     digitCount++;
-    //     n /= k;
-    // }
-
-    // cout << digitCount << endl;
+ll frq[maxs + 1] = {0};
