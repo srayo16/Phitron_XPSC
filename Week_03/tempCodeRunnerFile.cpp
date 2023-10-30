@@ -1,2 +1,4 @@
-   else
-                o.push_back(v[i]);
+      cM = false;
+                        cE = false;
+                        cO = false;
+                        cW = true;
