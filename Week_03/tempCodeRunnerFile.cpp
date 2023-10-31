@@ -1,4 +1,4 @@
-      cM = false;
-                        cE = false;
-                        cO = false;
-                        cW = true;
+or (ll i = 0; i < n; i++)
+        {
+            cout << arr[i] << " ";
+        }

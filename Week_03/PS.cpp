@@ -30,7 +30,7 @@ int main()
 
         for (char c = 'a'; c <= 'z'; c++)
         {
-            int add = max(frq[c], frq[c - 32]);
+            int add = max(frq[c], frq[c - 32]); // aaAAA then get A= 3
             int mn = min(k, add / 2);
             ans += mn;
             k -= mn;
